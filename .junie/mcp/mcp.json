@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/joelbaluma/Library/Application Support/Herd/bin/php82",
+            "args": [
+                "/Users/joelbaluma/work/portfolio-projects/benta-flow-api/artisan",
+                "boost:mcp"
+            ]
+        },
+        "herd": {
+            "command": "/Users/joelbaluma/Library/Application Support/Herd/bin/php82",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/joelbaluma/work/portfolio-projects/benta-flow-api"
+            }
+        }
+    }
+}
